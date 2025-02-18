@@ -11,7 +11,7 @@ import { MeshLineGeometry, MeshLineMaterial } from "meshline";
 import Band from "@/components/band";
 
 extend({ MeshLineGeometry, MeshLineMaterial });
-useGLTF.preload("/assets/3d/card.glb");
+useGLTF.preload("/assets/3d/card-2.glb");
 useTexture.preload("/assets/images/tag_texture.png");
 
 export default function Register() {

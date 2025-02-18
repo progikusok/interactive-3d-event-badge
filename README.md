@@ -1,7 +1,5 @@
 # Interactive 3D Event Badge
 
-If you find it useful, give this repository a star⭐ as a sign of thanks
-
 ## Inspiration
 
 [Building an interactive 3D event badge with React Three Fiber](https://vercel.com/blog/building-an-interactive-3d-event-badge-with-react-three-fiber)
