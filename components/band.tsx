@@ -52,8 +52,8 @@ export default function Band({ maxSpeed = 50, minSpeed = 10 }) {
   const [dragged, drag] = useState<THREE.Vector3 | false>(false);
   const [hovered, hover] = useState(false);
 
-  const { nodes, materials } = useGLTF("/assets/3d/card-2.glb");
-  const texture = useTexture("/assets/images/1.jpeg");
+  const { nodes, materials } = useGLTF("assets/3d/card-2.glb");
+  const texture = useTexture("assets/images/1.jpeg");
 
   const [curve] = useState(
     () =>

@@ -1,6 +1,4 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  basePath: "/interactive-3d-event-badge",
-};
+const nextConfig = {};
 
 export default nextConfig;
