@@ -12,7 +12,7 @@ import Band from "@/components/band";
 
 extend({ MeshLineGeometry, MeshLineMaterial });
 useGLTF.preload("/assets/3d/card-2.glb");
-useTexture.preload("/assets/images/tag_texture.png");
+useTexture.preload("/assets/images/1.jpeg");
 
 export default function Register() {
   return (
